@@ -1,0 +1,11 @@
+|RetroComputer
+Switch[0] => LED[0].DATAIN
+Switch[1] => LED[1].DATAIN
+Switch[2] => LED[2].DATAIN
+Switch[3] => LED[3].DATAIN
+LED[0] <= Switch[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= Switch[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= Switch[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= Switch[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
